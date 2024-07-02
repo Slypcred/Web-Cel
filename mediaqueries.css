@@ -1,0 +1,359 @@
+@media (max-width: 1500px) {
+
+    .cart {
+        width: 60%;
+        top: 70px;
+    }
+
+    .logo {
+        width: 10%
+    }
+
+    .welcome-content {
+        height: 50%;
+    }
+
+    .welcome-content p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .cart {
+        width: 60%;
+    }
+
+    .cart h2 {
+        font-size: 2.5em;
+    }
+
+    .cart-product img {
+        width: 30%;
+    }
+
+    .cart-total {
+        font-size: 1.5em;
+    }
+
+    .cart-product-info {
+        font-size: 1.3em;
+    }
+
+    .btn-delete,
+    .btn-buy {
+        font-size: 1.5em;
+    }
+
+    .product-handler {
+        padding-right: 1.5em;
+    }
+
+    .product-quantity {
+        font-size: 2em;
+    }
+
+    .quantity-handler {
+        font-size: 2em;
+    }
+
+
+    .logo {
+        width: 12%;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .welcome {
+        height: 60vh;
+    }
+
+
+    .welcome-content {
+        width: 40%;
+    }
+
+    .welcome-content p {
+        font-size: 19px;
+    }
+
+    .smartphone-world {
+        width: 350px;
+        height: 260px;
+    }
+
+    .about-us p {
+        width: 65%;
+    }
+
+
+    .container-contact {
+        display: inline-flex;
+        height: 40%;
+        width: 100%;
+    }
+
+    .diag {
+        display: flex;
+        width: 600px;
+        height: 100px;
+    }
+
+    .btn-contact {
+        margin-top: 3.8em;
+        padding: 0.6rem 2rem;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .cart {
+        width: 50%;
+    }
+
+    .cart h2 {
+        font-size: 2.2em;
+    }
+
+
+    .cart-total {
+        flex-wrap: wrap;
+        font-size: 1.5em;
+    }
+
+    .cart-product-info {
+        font-size: 1em;
+    }
+
+
+    .cart-product {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cart-product img {
+        width: 40%;
+        padding: 1em;
+    }
+
+    .btn-delete,
+    .btn-buy {
+        font-size: 1em;
+    }
+
+    .product-handler {
+        padding-right: 1em;
+    }
+
+    .product-quantity {
+        font-size: 1.4em;
+    }
+
+    .quantity-handler {
+        font-size: 1.5em;
+    }
+
+
+    .logo {
+        width: 12%;
+    }
+
+
+    .navbar-list {
+        position: absolute;
+        top: 165px;
+        right: 0;
+        width: 25%;
+        flex-direction: column;
+        background-color: #23b9b2;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 1;
+        display: none;
+    }
+
+    .navbar-list a {
+        font-size: 21px;
+        color: white;
+    }
+
+    .menu-label {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .cart-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .open-menu {
+        display: flex;
+    }
+
+    .welcome {
+        height: 60vh;
+    }
+
+
+    .welcome-content {
+        width: 40%;
+    }
+
+    .welcome-content p {
+        font-size: 19px;
+    }
+
+    .smartphone-world {
+        width: 350px;
+        height: 260px;
+    }
+
+    .smartphone-container {
+        gap: 80px;
+    }
+
+    .about-us p {
+        width: 65%;
+    }
+
+
+    .container-contact {
+        display: inline-flex;
+        height: 40%;
+        width: 100%;
+    }
+
+    .diag {
+        display: flex;
+        width: 400px;
+        height: 100px;
+    }
+
+    .btn-contact {
+        padding: 0.6rem 2rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .cart {
+        width: 100%;
+    }
+
+
+    header {
+        width: 100%;
+    }
+
+    .logo {
+        width: 95px;
+        height: 80px;
+    }
+
+
+    .navbar-list {
+        width: 230px;
+        top: 98px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .welcome {
+        height: 20%;
+    }
+
+    .welcome h1 {
+        width: 100%;
+        font-size: 40px;
+        padding-bottom: 2em;
+    }
+
+    .welcome-content {
+        width: 100%;
+    }
+
+    .welcome-content p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .welcome img {
+        width: 80%;
+    }
+
+    .products h2 {
+        margin-left: 20px;
+        padding-bottom: 1em;
+    }
+
+    .categories {
+        padding: 0;
+        padding-left: 1.2rem;
+    }
+
+    .btn-more {
+        width: 100%;
+    }
+
+    .about-us h2 {
+        font-size: 2em;
+    }
+
+    .about-us p {
+        width: 65%;
+        font-size: 15px;
+    }
+
+
+    .container-contact {
+        display: flex;
+        margin: 0;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+    }
+
+    .contact-title {
+        padding-left: 3rem;
+        font-size: 2em;
+        padding-top: 2em;
+    }
+
+
+    .contact {
+        padding-left: 0;
+    }
+
+    .input-1 {
+        width: 100%;
+    }
+
+
+    .diag {
+        max-width: none;
+        width: 100%;
+        height: 100px;
+    }
+
+    .btn-contact {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+
+    .list-branches {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-branches a {
+        font-size: 20px;
+    }
+}

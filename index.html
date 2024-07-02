@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Cel World</title>
+</head>
+
+<body>
+
+
+    <!----------------       NAV SECTION          ----------------->
+
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <nav class="container-nav">
+
+            <div class="navbar-list">
+                <a class="navbar-item" href="#banner">Home</a>
+                <a class="navbar-item" href="#products">SmarthPhones</a>
+                <a class="navbar-item" href="#about-us">About Us</a>
+                <a class="navbar-item" href="#contact">Contant</a>
+            </div>
+
+            <div class="cart-label">
+                <img src="img/cart1.png" class="cart-icon" alt="cart-icon">
+            </div>
+
+
+            <div class="cart">
+
+                <h2>Your Cart</h2>
+                <div class="cart-container" id="cart-container"></div>
+                <div class="cart-total" id="cart-total">
+                    <p>Total:</p>
+                    <p class="total" id="total">$0 Dollars</p>
+                </div>
+                <button class="btn-buy" id="btn-buy">Buy</button>
+                <button class="btn-delete" id="btn-delete">Delete All</button>
+            </div>
+
+            <div class="menu-label">
+                <img src="img/menu.png" class="menu-icon" />
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!----------          WELCOME/HERO SECTION    ---------------->
+
+
+    <section id="banner" class="banner">
+        <div>
+            <div class="welcome">
+                <h1>WELCOME TO CELL WORLD!</h1>
+                <div class="welcome-content">
+                    <p>Cell world is the best smartphone store you can find! We have the best prices as well as the best
+                        after-sales service! Don't miss it and take a look!</p>
+                </div>
+                <img src="img/smartphone-world.jpg" alt="smartphone-world" class="smartphone-world">
+            </div>
+        </div>
+    </section>
+
+    <!------------        PRODUCTS SECTION     --------------->
+
+
+    <section id="products" class="products">
+        <h2>Filters</h2>
+
+        <div class="categories">
+            <button class="category active">All</button>
+            <button class="category" data-category="Xiaomi">Xiaomi</button>
+            <button class="category" data-category="Samsung">Samsung</button>
+            <button class="category" data-category="Motorola">Motorola</button>
+            <button class="category" data-category="Iphone">Iphone</button>
+        </div>
+
+        <div class="smartphone-container" id="smartphone-container"></div>
+        <div class="btn-more-container" id="btn-more-container">
+            <button class="btn-more" id="btn-more">Show More</button></div>
+    </section>
+
+
+    <!--------------         ABOUT US SECTION     ------------>
+
+    <section>
+        <div id="about-us" class="about-us">
+            <h2>About Us</h2>
+            <p>We have a history of more than 20 years of selling smartphones at the best price! We have several
+                branches in
+                different provinces and we are expanding more and more, seeking to provide the best sales and
+                after-sales service,
+                counting on numerous experts for first-class advice!</p>
+        </div>
+    </section>
+
+
+
+    <!--------------          CONTACT SECTION    -------------->
+
+
+    <section>
+        <div class="contact-title">
+            <h4>Contact Us!</h4><a name="contact"></a>
+        </div>
+        <div class="container-contact">
+            <form class="contact form">
+                <input class="input-name" id="input-name" type="text" placeholder="Name"><br />
+                <input class="input-email" id="input-email" type="email" placeholder="Email"><br />
+                <textarea class="diag" name="diag" id="diag" cols="1" rows="10" placeholder="Type here..."></textarea>
+            </form>
+            <button type="submit" class="btn-contact" id="btn-contact">Send</button>
+
+        </div>
+    </section>
+
+
+    <!-------------     FOOTER SECTION     ------------->
+
+
+    <footer>
+        <div class="footer">
+            <h4>Visit other branches!</h4><a name="footer"></a>
+            <ul class="list-branches">
+                <li><a href="#">Buenos aires, Flores</a></li>
+                <li><a href="#">Buenos aires, San Justo</a></li>
+                <li><a href="#">Santa fe, Rosario</a></li>
+                <li><a href="#">Córdoba, Córdoba capital</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
